@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 720px;
+            margin: 60px auto;
+            padding: 0 20px;
+            color: #222;
+        }
+
+        .status {
+            color: #187a3d;
+            font-weight: bold;
+        }
+
+        li {
+            margin: 12px 0;
+        }
+
+        code {
+            background: #f1f1f1;
+            padding: 4px 8px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Management API</h1>
+    <p class="status">Server is running successfully.</p>
+
+    <h2>Available Routes</h2>
+    <ul>
+        <li><code>POST /students</code> - Add a student</li>
+        <li><code>GET /students</code> - Get all students</li>
+        <li><code>GET /students/:id</code> - Get a student by ID</li>
+        <li><code>PUT /students/:id</code> - Update a student</li>
+        <li><code>DELETE /students/:id</code> - Delete a student</li>
+    </ul>
+</body>
+</html>
